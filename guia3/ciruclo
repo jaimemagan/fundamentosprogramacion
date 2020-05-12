@@ -1,0 +1,17 @@
+// area y perimetro 
+#include <iostream>
+#include <cmath>
+
+int main()
+{
+  double radio;
+  double area;
+  double pi=3.1416;
+  double perimetro;
+  std::cout << "digite el radio del circulo:";std::cin>>radio;
+ area=pi*pow(radio,2);
+ perimetro=2*pi*radio;
+  std::cout << "radio del circulo es:, " << radio << "!\n";
+  std::cout << "el area del circulo es:, " << area << "!\n";
+  std::cout << "el perimetro del circulo es:, " << perimetro << "!\n";
+}
