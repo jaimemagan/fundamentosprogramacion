@@ -1,0 +1,27 @@
+// Promedio de tres numeros enteros
+#include <iostream>
+
+
+int main()
+{
+  int n1;
+  int n2;
+  int n3;
+  int suma;
+  double promedio;
+  
+  std::cout << "digite el primer numero:";std::cin>>n1;
+  
+  std::cout << "digite el segundo numero:";std::cin>>n2;	
+
+  
+  std::cout << "digite el tercer numero:";std::cin>>n3;
+  
+  suma=n1+n2+n3;
+  
+  promedio=suma/3;
+  
+  std::cout << "Los Numeros ingressado son: "<< n1 << ","<< n2 <<","<< n3 << "\n";
+  std::cout << "El promedio de los tres numerod ingresados es: "<< promedio; 
+}
+ 
