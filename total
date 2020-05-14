@@ -1,0 +1,16 @@
+// total de producto
+#include <iostream>
+#include <cmath>
+
+int main()
+{
+ double precio;
+ int cantidad;
+ double total;
+  std::string producto ;
+  std::cout << "digite nombre del producto";std::cin>>producto;
+  std::cout << "el precio del producto es:";std::cin>>precio;
+ std::cout << "la cantidad del producto es :";std::cin>>cantidad;
+ total=cantidad*precio;
+  std::cout << "el total gastado es:, " << total << "!\n";
+}
