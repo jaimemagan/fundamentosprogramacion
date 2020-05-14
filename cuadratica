@@ -1,0 +1,21 @@
+// cuadratica 
+#include <iostream>
+#include <cmath>
+
+int main()
+{
+  double a , b, c;
+  double x1;
+  double x2;
+  std::cout << "digite el valor de a:";std::cin>>a;
+  std::cout << "digite el valor de b:";std::cin>>b;
+  std::cout << "digite el valor de c:";std::cin>>c;
+  x1=((-b)+(sqrt(pow(b,2)-(4*a*c))))/(2*a);
+  x2=((-b)-(sqrt(pow(b,2)-(4*a*c))))/(2*a);
+ 
+ 
+  
+  std::cout << "El valor de a es:" << a << "\nEl valor de b es:" << b << "\nEl valor de c es:" << c<< "\n";;
+  std::cout << "El valor de x1 es:" << x1<< "\n";
+  std::cout << "El valor de x2 es:" << x2<< "\n";
+}
